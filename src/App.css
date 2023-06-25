@@ -93,13 +93,13 @@ img {
   line-height: 160%;
 }
 .cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
 }
 .card {
-    width: 260px;
+  width: 260px;
 }
 .card-number {
   color: #d52027;
@@ -111,4 +111,36 @@ img {
   color: rgba(20, 16, 36, 0.7);
   font-size: 18px;
   line-height: 160%;
+}
+.course-block {
+  background: #f9f9f9;
+}
+.course-block h2 {
+  color: #141024;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.info-block {
+  margin-top: 180px;
+}
+.InfoCard-block{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.infoCard {
+  width: 360px;
+}
+.infoCard .title {
+  color: #141024;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.infoCard .text {
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 10px;
 }
