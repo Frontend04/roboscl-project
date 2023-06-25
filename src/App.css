@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 185px;
   padding-top: 30px;
 }
 ul {
@@ -28,7 +29,7 @@ li {
 
 .tel {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 160%;
 }
@@ -38,4 +39,76 @@ li {
 }
 a {
   text-decoration: none;
+}
+.main-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-1 {
+  margin-right: 400px;
+}
+.wrap-1 h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  width: 180%;
+  line-height: 160%;
+}
+.wrap-1 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 160%;
+  width: 175%;
+  margin-bottom: 80px;
+}
+.wrap-button {
+  padding: 25px 54px;
+  border-radius: 5px;
+  background: #d52027;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  line-height: 160%;
+}
+.wrap-button:hover {
+  background: #eb040c;
+}
+.wrap-button:active {
+  background: #c4040a;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.best-block {
+  margin-top: 120px;
+}
+.best-block span {
+  color: #141024;
+  font-size: 30px;
+  display: block;
+  width: 890px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.card {
+    width: 260px;
+}
+.card-number {
+  color: #d52027;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 160%;
+}
+.card-text {
+  color: rgba(20, 16, 36, 0.7);
+  font-size: 18px;
+  line-height: 160%;
 }
