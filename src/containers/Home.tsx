@@ -4,6 +4,7 @@ import "../App.css";
 import mainPhoto from "../assets/main-photo.png";
 import Card from "../components/Card";
 import InfoCard from "../components/InfoCard";
+import CardCarousel from "../components/CardCarousel";
 const Home: React.FC = () => {
   return (
     <div>
@@ -68,6 +69,9 @@ const Home: React.FC = () => {
                 "Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)"
               }
             />
+          </div>
+          <div className="carousel">
+            <CardCarousel />
           </div>
         </div>
       </div>

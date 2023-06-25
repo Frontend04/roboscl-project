@@ -143,4 +143,10 @@ img {
   font-size: 18px;
   line-height: 160%;
   margin-top: 10px;
+  padding-bottom: 50px;
+}
+.CardCarousel {
+  margin-top: 80px;
+  text-align: center;
+  float: right;
 }
