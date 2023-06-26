@@ -8,9 +8,11 @@ const App: React.FC = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={(<Home />)} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
-   </div>
+    </div>
   );
 };
 

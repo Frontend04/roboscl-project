@@ -178,7 +178,7 @@ img {
   color: #fff;
 }
 
-.about-main h2{
+.about-main h2 {
   color: #eb040c;
   margin-left: 130px;
 }
@@ -187,7 +187,7 @@ img {
   font-size: 38px;
   font-weight: bold;
   color: #fff;
-} 
+}
 .aboutWrap {
   display: flex;
   justify-content: space-between;
@@ -210,11 +210,46 @@ img {
   margin-top: 10px;
   color: #fff;
 }
-.about-desc a:hover{
+.about-desc a:hover {
   color: gold;
 }
 .AddTaskIcon {
   margin-top: 5px;
   margin-right: 15px;
   color: gold;
+}
+.about-footer {
+  margin-top: 180px;
+  text-align: center;
+}
+.about-footer h3 {
+  color: #141024;
+}
+.contacts {
+  margin-top: 130px;
+  justify-content: space-between;
+  display: flex;
+}
+.about-footer p {
+  font-size: 15px;
+  line-height: 25px;
+  color: gold;
+}
+.contact {
+  display: flex;
+  margin-top: 90px;
+}
+.contact span,
+a {
+  font-size: 25px;
+  color: #141024;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.map {
+  width: 50%;
+  height: 70vh;
+  background: #141024;
+  padding: 15px;
+  border-radius: 15px;
 }
