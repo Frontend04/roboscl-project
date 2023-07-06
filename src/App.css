@@ -229,6 +229,10 @@ img {
   margin-top: 130px;
   justify-content: space-between;
   display: flex;
+} 
+.mainConstact {
+  background: #f7f7f7;
+  border-radius: 15px;
 }
 .about-footer p {
   font-size: 15px;
@@ -238,6 +242,7 @@ img {
 .contact {
   display: flex;
   margin-top: 90px;
+  padding: 0 90px;
 }
 .contact span,
 a {

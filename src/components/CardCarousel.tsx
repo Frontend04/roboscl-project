@@ -25,12 +25,12 @@ const CardCarousel: React.FC = () => {
     },
     {
       image: Card3,
-      description: "Stiv",
+      description: "Stive",
       Age: 40,
     },
     {
       image: Card4,
-      description: "Kristi",
+      description: "Kristina",
       Age: 35,
     },
   ]);

@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   return (
     <div className="header">
       <div className="headerTop container">
-        <a href="#">
+        <a href="/">
           <img src={logo} alt="logo" />
         </a>
         <MenuNav />
